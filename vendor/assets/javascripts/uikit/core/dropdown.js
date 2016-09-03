@@ -70,7 +70,7 @@
             var triggerevent = UI.support.touch ? "click" : "mouseenter";
 
             // init code
-            UI.$html.on(triggerevent+".dropdown.uikit focus", "[data-uk-dropdown]", function(e) {
+            UI.$html.on(triggerevent+".dropdown.uikit", "[data-uk-dropdown]", function(e) {
 
                 var ele = UI.$(this);
 

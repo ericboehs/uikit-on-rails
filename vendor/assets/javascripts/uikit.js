@@ -1,5 +1,3 @@
-//= require uikit/uikit
-
 // Core
 //= require 'uikit/core/core'
 //= require 'uikit/core/alert'
